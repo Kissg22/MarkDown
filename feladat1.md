@@ -261,6 +261,8 @@ PHP oldalon az áthozott tömb változókat `POST` methoddal tudjuk használni.
 
 ## 3.4 PHP kódok
 
+![](1.jpg) 
+
 Mivel PHP programozási nyelvvel már volt dolgom, így megpróbáltam a legátláthatóbban megoldani a feladatokat. Minden PHP kódot három részre bontottam: `Áthozott infó`, `Adatbázis info` és `Lekérdezés`. Erre azért volt szükség, hogy sokkal jobban lehessen tudni, melyik változót hol hozom létre. Mikor teszteltem a PHP-kódokat, akkor egy új csoportot hoztam létre `Próba`ként.
 
 Az `Áthozott infó` csoportban azokat a változókat tárolom, amelyeket a Java programból hoztam át `POST` methoddal. Ezek általában olyan információk, amelyeket később lekérdezésnél használok, pl. email, felhasználónév, id.
@@ -270,6 +272,8 @@ Az `Adatbázis infó` csoportba tartozik minden, ami szükséges ahhoz, hogy el�
 A `Lekérdezés` csoportban minden olyan van, ami maga a program. Itt dolgozik a PHP, mivel itt kommunikálok az adatbázissal (pl. feltöltés, lekérdezés), illetve itt írom ki az adatokat, hogy utána a Java programban lekérdezzem.
 
 ## 3.5 Főbb változók
+
+![](1.jpg) 
 
 Nagyon fontos kiemelnem a `profil` class-t, hiszen ebben nagyon sok fontos változót tároltam el annak érdekében, hogy ne kelljen újra és újra lekérdeznem őket a szervertől.
 
