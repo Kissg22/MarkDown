@@ -1,4 +1,4 @@
-# Záródolgozat
+<h1 align="center">Záródolgozat</h1>
 
 **Témavezető:** Szabó Dániel  
 **Készítette:** Kovács László, Szoftverfejlesztő  
@@ -39,15 +39,26 @@
 
 4. [Irodalomjegyzék](#irodalomjegyzék)
 
+<a name="összefoglaló"></a>
 # 1. Összefoglaló
 
 ## 1.1 Záródolgozat téma kiválasztása
 
 Elsősorban biztos voltam benne, hogy egy olyan felületet szeretnék létrehozni, ahol az általam létrehozott alkalmazásokról tudok kommunikálni a felhasználókkal. Azonban ki kellett találni, hogy milyen platformon szeretném ezt létrehozni (webes vagy rendes alkalmazás?). Elkezdtem tervezni egy weboldal alapú fórumot, ami számomra nem volt megfelelő, ezért eldöntöttem, hogy egy telefonos alkalmazást fogok létrehozni.
 
+<a name="alkalmazás-tervezése"></a>
 ## 1.2 Alkalmazás tervezése
 
+<p align="center">
+  <img src="13.jpg" alt="13" />
+</p>
+
+
 Az alkalmazás kiválasztása után kezdetleges látványterveket hoztam létre, amelyeket (egy-két kivétellel) meg is valósítottam.
+
+<p align="center">
+  <img src="15.jpg" alt="15" />
+</p>
 
 Elsőnek úgy terveztem, hogy belépés után a felhasználót egy kezdő felület köszöntse, amely két opciót tartalmaz: Belépés vagy Regisztráció. Ezt végül elvetettem, ugyanis számomra jelentéktelenné vált.
 
@@ -55,6 +66,7 @@ A következő tervezési lépés a topic kiválasztó rész volt.
 
 Végül a topichoz való hozzászólást terveztem meg.
 
+<a name="programnyelv-kiválasztása-előkészületek"></a>
 ## 1.3 Programnyelv kiválasztása, előkészületek
 
 Miután eldöntöttem, hogy alkalmazást szeretnék létrehozni, szembesültem azzal a problémával, hogy rengeteg platform van egy alkalmazás létrehozására. Időbe telt, mire átnéztem párat ezek közül, de végül az `Android Studio` nyerte el a tetszésemet, amelyben Java-t használtam. Miután kiválasztottam az alapokat, megkezdődtek az előkészületek, hiszen eddig nem programoztam Javában. Az első hetekben egy egyszerű számológépet készítettem, amelyen nagyon sok mindent kitapasztaltam, és később ez mind a hasznomra vált.
@@ -69,6 +81,7 @@ Annak ellenére, hogy ebben az évben igencsak keveset tartózkodtunk az iskolá
 
 ---
 
+<a name="felhasználói-dokumentáció"></a>
 # 2. Felhasználói dokumentáció
 
 ## 2.1 Rendszer Követelmény
@@ -80,7 +93,18 @@ Annak ellenére, hogy ebben az évben igencsak keveset tartózkodtunk az iskolá
 
 ## 2.2 Alkalmazás telepítése
 
+<p align="center">
+  <img src="16.jpg" alt="16" />
+</p>
+
+
+
+
 Miután kiválasztottuk, hogy melyik eszközre szeretnénk telepíteni, utána indítsunk el bármilyen böngészőt rajta. Huawei készülékeken egy kék bolygó ikon jelzi ezt.
+
+<p align="center">
+  <img src="17.jpg" alt="17" />
+</p>
 
 Megnyitás után a képernyő tetején található keresőbe írjuk be ezt a címet: `szdaniel.hu`.
 
@@ -165,11 +189,13 @@ Természetesen itt sem ragad meg a felhasználó, hiszen az eddig megszokott vis
 - **Abban az esetben, ha problémám van a programmal, hol jelezhetem ezt?**  
   *Amennyiben a fórumon ezt nem teheti meg, abban az esetben a ‘elérhetőség’ résznél feltüntetett email címen lehet jelezni.*
 
+<a name="a-program-készítőjének-elérhetősége"></a>
 ## 2.5 A program készítőjének elérhetősége
 
 - **E-mail cím:** danikaszab@gmail.com
 - **Telefon szám:** 06-30-812-8489
 
+<a name="fejlesztői-dokumentáció"></a>
 # 3. Fejlesztői dokumentáció
 
 ## 3.1 Adatbázis
@@ -331,7 +357,7 @@ Miután kiismerem magam a lehetőségeimmel, utána jött egy újabb akadály: n
 - **Jelszó:** elso
 
 ---
-
+<a name="irodalomjegyzék"></a>
 # 4. Irodalomjegyzék
 
 - **Színválasztás:**  
